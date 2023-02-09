@@ -3,18 +3,15 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-# Geometry Basics: Distance between points in 2D.
-# This series of katas will introduce you to basics of doing geometry with computers.
-# Point objects have attributes x and y.
-# Write a function calculating distance between Point a and Point b.
-# Tests compare expected result and actual answer with tolerance of 1e-6.
+# Number of People in the Bus.
+# There is a bus moving in the city which takes and drops some people at each bus stop.
+# You are provided with a list (or array) of integer pairs. Elements of each pair represent the number of people that get on the bus (the first item) and the number of people that get off the bus (the second item) at a bus stop.
+# Your task is to return the number of people who are still on the bus after the last bus stop (after the last array). Even though it is the last bus stop, the bus might not be empty and some people might still be inside the bus, they are probably sleeping there :D
+# Take a look on the test cases.
+# Please keep in mind that the test cases ensure that the number of people in the bus is always >= 0. So the returned integer can't be negative.
+# The second value in the first pair in the array is 0, since the bus is empty in the first bus stop.
 
-def even_or_odd(number):
-    if number %2 == 0:
-        return "Even"
-    else:
-        return "Odd"
-
-print(even_or_odd(4))
+def number(bus_stops):
+    # Good Luck!
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
