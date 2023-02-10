@@ -12,6 +12,14 @@
 # The second value in the first pair in the array is 0, since the bus is empty in the first bus stop.
 
 def number(bus_stops):
-    # Good Luck!
+    res = 0
 
+    for i in bus_stops:
+        res += i[0] - i[1]
+
+    return res
+
+res = number([[10,0],[3,5],[5,8]])
+
+print(res)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
